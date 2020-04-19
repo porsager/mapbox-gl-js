@@ -1,0 +1,34 @@
+{
+  "expression": ["distance", {
+      "type": "LineString",
+      "coordinates": [[0, 0], [0, 5], [5, 5], [5, 0]]
+    }, "Kilometers"],
+  "inputs": [[{
+        "zoom": 3,
+        "canonicalID": {
+          "z": 3,
+          "x": 3,
+          "y": 3
+        }
+      }, {
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[3, 3], [6, 6], [3, 3]]]
+        }
+      }]],
+  "expected": {
+    "outputs": [{
+        "error": "distance expression currently only evaluates Point/LineString geometries."
+      }],
+    "serialized": ["distance", {
+        "coordinates": [[0, 0], [0, 5], [5, 5], [5, 0]],
+        "type": "LineString"
+      }, "Kilometers"],
+    "compiled": {
+      "type": "number",
+      "isFeatureConstant": false,
+      "isZoomConstant": true,
+      "result": "success"
+    }
+  }
+}
