@@ -1,4 +1,17 @@
 {
+  "expression-tests/distance/invalid-geometry-input": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/invalid-unit-input": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/line-to-line-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/line-to-lines-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/lines-to-lines-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/non-supported-feature-geometry": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/point-to-line-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/point-to-lines-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/point-to-point-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/point-to-points-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/points-to-line-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/points-to-lines-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "expression-tests/distance/points-to-points-distance": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
   "query-tests/regressions/mapbox-gl-js#4494": "https://github.com/mapbox/mapbox-gl-js/issues/2716",
   "render-tests/geojson/inline-linestring-fill": "current behavior is arbitrary",
   "render-tests/line-dasharray/case/square": "https://github.com/mapbox/mapbox-gl-js/issues/9531",
@@ -24,5 +37,9 @@
   "render-tests/text-variable-anchor/left-top-right-bottom-offset-tile-map-mode": "skip - mapbox-gl-js does not support tile-mode",
   "render-tests/tile-mode/streets-v11": "skip - mapbox-gl-js does not support tile-mode",
   "render-tests/within/paint-line": "https://github.com/mapbox/mapbox-gl-js/issues/7023",
-  "render-tests/icon-text-fit/text-variable-anchor-tile-map-mode": "skip - mapbox-gl-js does not support tile-mode"
+  "render-tests/icon-text-fit/text-variable-anchor-tile-map-mode": "skip - mapbox-gl-js does not support tile-mode",
+  "render-tests/distance/filter-within-distance-expression": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "render-tests/distance/paint-circle": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "render-tests/distance/paint-line": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397",
+  "render-tests/distance/symbol-style": "TODO: port https://github.com/mapbox/mapbox-gl-native/pull/16397"
 }
