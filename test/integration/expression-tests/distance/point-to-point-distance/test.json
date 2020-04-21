@@ -6,7 +6,7 @@
         "type": "Point",
         "coordinates": [103.91959190368653, 1.3321439094005239]
       }
-    }, "Meters"],
+    }, "meters"],
   "inputs": [[{
         "zoom": 13,
         "canonicalID": {
@@ -77,7 +77,7 @@
           "coordinates": [103.91959190368653, 1.3321439094005239]
         },
         "type": "Feature"
-      }, "Meters"],
+      }, "meters"],
     "compiled": {
       "type": "number",
       "isFeatureConstant": false,

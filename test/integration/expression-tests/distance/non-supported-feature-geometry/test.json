@@ -2,7 +2,7 @@
   "expression": ["distance", {
       "type": "LineString",
       "coordinates": [[0, 0], [0, 5], [5, 5], [5, 0]]
-    }, "Kilometers"],
+    }, "kilometers"],
   "inputs": [[{
         "zoom": 3,
         "canonicalID": {
@@ -23,7 +23,7 @@
     "serialized": ["distance", {
         "coordinates": [[0, 0], [0, 5], [5, 5], [5, 0]],
         "type": "LineString"
-      }, "Kilometers"],
+      }, "kilometers"],
     "compiled": {
       "type": "number",
       "isFeatureConstant": false,

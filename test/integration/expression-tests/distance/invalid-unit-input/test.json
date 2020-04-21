@@ -44,7 +44,7 @@
     "compiled": {
       "errors": [{
           "key": "",
-          "error": "'distance' expression only accepts following Units:  'Kilometers', 'Miles', 'NauticalMiles', 'Meters', 'Metres', 'Yards', 'Feet', 'Inches'."
+          "error": "'distance' expression only accepts following units: kilometers, miles, nauticalmiles, meters, metres, yards, feet, inches."
         }],
       "result": "error"
     }
