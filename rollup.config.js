@@ -49,4 +49,24 @@ export default [{
         // This is the only reason we use Rollup for this second pass
         sourcemaps()
     ],
+}, {
+    // Next, bundle together the three "chunks" produced in the previous pass
+    // into a single, final bundle. See rollup/bundle_prelude.js and
+    // rollup/mapboxgl.js for details.
+    input: 'rollup/mapboxgl.js',
+    output: {
+        name: 'mapboxgl',
+        file: outputFile.replace('.js', '.esm.js'),
+        format: 'esm',
+        sourcemap: production ? true : 'inline',
+        indent: false,
+        intro: fs.readFileSync(require.resolve('./rollup/bundle_prelude.js'), 'utf8'),
+        banner
+    },
+    treeshake: false,
+    plugins: [
+        // Ingest the sourcemaps produced in the first step of the build.
+        // This is the only reason we use Rollup for this second pass
+        sourcemaps()
+    ],
 }];
